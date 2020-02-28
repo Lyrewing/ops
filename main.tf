@@ -6,7 +6,7 @@ provider "github" {
   organization = "${var.github_organization}"
 }
 
-data "github_repositories" "example" {
+data "github_repositories" "gos" {
   query = "org:Lyrewing language:Go"
 }
 # Add a user to the organization
