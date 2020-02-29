@@ -8,9 +8,3 @@ provider "github" {
 data "github_repositories" "gos" {
   query = "org:Lyrewing language:Go"
 }
-
-# Add a user to the organization
-resource "github_membership" "membership_for_user_x" {
-  username = "fengzhanyuan"
-}
-
