@@ -4,7 +4,6 @@ variable "private"         { default = false }
 variable "organization"     { }
 variable "github_token" {}
 variable "default_branch"   { }
-variable "github_tools_pat" { }
 
 variable "auto_init" {
     type = "string"
