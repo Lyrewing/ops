@@ -4,5 +4,4 @@ module china_mobile_connected_cn {
     source           = "./modules/org-repo"
     organization     = "Lyrewing"
     default_branch   = "master"
-    github_tools_pat = "${local.github_tools_pat}"
 }
